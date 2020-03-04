@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: bohdan
+      changes:
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('ZH-54954', 'Volvo-740', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-1999', 'BMV-X5', 51.345, 38.123)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2000', 'Brabus', 49.001, 40.98)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('XA-2345', 'VAZ-2106', 49.861, 36.379)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2001', 'Mazda-6', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2002', 'BMV-X5', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2003', 'Nissan Primera', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2004', 'Honda-CV', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2005', 'Nissan Qashqai', 50.01, 36.24)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('XA-5432', 'VAZ-2111', 49.73, 37.51)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2008', 'Nissan Primera', 49.979, 36.234)
+        - sql:
+            sql: insert into vehicle (number, name, longitude, latitude) values ('GR-2020', 'Hyundai Tucson', 49.949, 36.2605)
